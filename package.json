@@ -10,6 +10,10 @@
   },
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "devstart": "nodemon ./bin/www"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
